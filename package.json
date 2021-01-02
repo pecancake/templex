@@ -1,0 +1,27 @@
+{
+  "name": "pecas-templex",
+  "version": "1.0.0",
+  "description": "Very lightweight string templating library",
+  "main": "templex.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pecancake/templex.git"
+  },
+  "keywords": [
+    "string",
+    "templating",
+    "template"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pecancake/templex/issues"
+  },
+  "homepage": "https://github.com/pecancake/templex#readme"
+}
