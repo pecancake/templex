@@ -1,27 +1,53 @@
 {
-  "name": "pecas-templex",
-  "version": "1.0.0",
+  "_from": "pecas-templex",
+  "_id": "pecas-templex@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-AIMMpLqs0xjyOZk8VmpdmPdNUP3rQ4iTuKQz2fwdBUnClDnuN7I6bd+2pdj0kWLk64nZNGW735hPHIaI1VBUAg==",
+  "_location": "/pecas-templex",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "pecas-templex",
+    "name": "pecas-templex",
+    "escapedName": "pecas-templex",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/pecas-templex/-/pecas-templex-1.0.1.tgz",
+  "_shasum": "dcb5e8f3a33db2dd54bfdb87a5f5fe69a5d4c7f7",
+  "_spec": "pecas-templex",
+  "_where": "C:\\Users\\peter\\Desktop\\blog-html\\test",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/pecancake/templex/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Very lightweight string templating library",
-  "main": "templex.js",
   "directories": {
     "example": "examples"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pecancake/templex.git"
-  },
+  "homepage": "https://github.com/pecancake/templex#readme",
   "keywords": [
     "string",
     "templating",
     "template"
   ],
-  "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pecancake/templex/issues"
+  "main": "templex.js",
+  "name": "pecas-templex",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pecancake/templex.git"
   },
-  "homepage": "https://github.com/pecancake/templex#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
 }

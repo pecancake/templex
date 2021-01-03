@@ -8,12 +8,12 @@ class Temp {
     }
 
     compile(replacements) {
-        var matches = this.rawText.match(/\[\w+\]/g);
+        var matches = this.rawText.match(/<\|\w+\|>/g);
         this.compText = this.rawText;
 
         // replace all matches
         for (var m=0; m!=matches.length; m++) {
-            var key = matches[m].replace(/\[|\]/g, '');
+            var key = matches[m].replace(/<\||\|>/g, '');
             this.compText = this.compText.replace(matches[m], replacements[key]);
         }
 
@@ -22,6 +22,11 @@ class Temp {
 }
 
 class Templex {
+    static open(fp) {
+        var temp = new Temp(fp);
+        return temp.rawText;
+    }
+    
     static compile(fp, replacements=null) {
         var temp = new Temp(fp);
         return temp.compile(replacements || {});

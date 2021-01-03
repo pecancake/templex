@@ -1,3 +1,3 @@
 <div> Here is some text in b.tpx </div>
 
-<div style="border:2px black solid;"> A variable has been replaced here: [testTwo] </div>
+<div style="border:2px black solid;"> A variable has been replaced here: <|testTwo|> </div>
